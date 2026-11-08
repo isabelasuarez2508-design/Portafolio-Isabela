@@ -35,22 +35,6 @@ nuevas herramientas y tecnologías.
 - Git
 - GitHub
 
-## Proyectos destacados
-
-### 1. Portafolio web
-Página personal desarrollada con HTML y CSS.
-
-### 2. Taca Tickets API
-API REST para la gestión de tickets de soporte,
-desarrollada con Node.js y Express.
-
-### 3. SoulSound
-Aplicación web de inventario y ventas desarrollada
-con Python, Flask y SQLite.
-
-### 4. Alma Bendita
-Catálogo digital con carrito de compras y pedidos por WhatsApp.
-
 ## Objetivos
 
 Continuar aprendiendo, fortalecer mis habilidades como
