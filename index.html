@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="icon" type="image/svg+xml" href="img/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 </head>
 
 <body>
@@ -31,8 +30,8 @@
                 <li><a href="#tecnologias">Herramientas y habilidades</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#formacion">Formación</a></li>
-                <li><a href="#certificaciones">Certificaciones</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#certificaciones">Certificaciones</a></li>
             </ul>
 
         </nav>
@@ -43,6 +42,10 @@
         <section class="hero" id="inicio">
             <div class="container hero-content">
 
+                <div class="hero-photo">
+                    <img src="img/foto-perfil.jpg" alt="Foto de Isabela Suárez">
+                </div>
+
                 <div class="hero-text">
 
                     <span class="eyebrow">
@@ -50,7 +53,7 @@
                     </span>
 
                     <h1>
-                        Hola, soy <span>Isabela Suárez López</span>
+                        Hola, soy <span>Isabela Suárez</span>
                     </h1>
 
                     <h2>
@@ -68,11 +71,11 @@
                     </p>
 
                     <div class="hero-buttons">
-                        <a href="#proyectos" class="btn btn-outline">
+                        <a href="#proyectos" class="btn btn-primary">
                             Ver mis proyectos
                         </a>
 
-                        <a href="#contacto" class="btn btn-outline">
+                        <a href="https://wa.me/+573104677388" target="_blank" class="btn btn-outline">
                             Contáctame
                         </a>
                     </div>
@@ -228,20 +231,52 @@
                     <article class="project-card">
                         <div class="project-number">01</div>
 
-                        <div class="project-image project-image-three">
-                            <span>SOULSOUND</span>
+                        <div class="project-image project-image-five">
+                            <span>AURA MAKEUP</span>
                         </div>
 
                         <div class="project-info">
                             <span class="project-type">Proyecto personal</span>
 
-                            <h3>SoulSound</h3>
+                            <h3>Aura Makeup</h3>
 
                             <p>
-                                Aplicación web para administrar
-                                inventario y ventas de productos
-                                de maquillaje, con almacenamiento
-                                de información.
+                                Catálogo digital de maquillaje con filtros por
+                                categoría, buscador, carrito de compras y pedidos
+                                por WhatsApp.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>JavaScript</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <a href="https://github.com/isabelasuarez2508-design/catalogo-maquillaje"
+                               target="_blank" rel="noopener noreferrer"
+                               class="project-link">
+                                Ver proyecto ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- PROYECTO 2 -->
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+
+                        <div class="project-image project-image-four">
+                            <span>NODESPERDICIO</span>
+                        </div>
+
+                        <div class="project-info">
+                            <span class="project-type">Proyecto personal</span>
+
+                            <h3>NoDesperdicio</h3>
+
+                            <p>
+                                Aplicación web para llevar el control de los
+                                alimentos del hogar y saber cuáles vencen pronto,
+                                con el fin de reducir el desperdicio de comida.
                             </p>
 
                             <div class="project-tags">
@@ -250,7 +285,7 @@
                                 <span>SQLite</span>
                             </div>
 
-                            <a href="URL-DEL-REPOSITORIO-3"
+                            <a href="https://github.com/isabelasuarez2508-design/nodesperdicio"
                                target="_blank" rel="noopener noreferrer"
                                class="project-link">
                                 Ver proyecto ↗
@@ -353,6 +388,36 @@
                     </div>
                 </article>
 
+                <!-- Certificado Cisco Networking Academy -->
+                <article class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+
+                    <div class="certification-info">
+                        <span class="certification-status completed">
+                            Completado
+                        </span>
+
+                        <h3>Fundamentos de Python 1</h3>
+                        <p class="certification-institution">Cisco Networking Academy</p>
+
+                        <p class="certification-description">
+                            Curso ofrecido por el SENA - Centro de Tecnología
+                            de la Manufactura Avanzada a través del programa
+                            Cisco Networking Academy. Finalizado el 1 de junio de 2026.
+                        </p>
+
+                        <a href="certificados/python-essentials-1-cisco.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="certification-link">
+                            Ver certificado
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </article>
+
                 <!-- Curso Universidad EAFIT -->
                 <article class="certification-card">
                     <div class="certification-icon">
@@ -406,7 +471,10 @@
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
 
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=isabelasuarez2508@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Gmail">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=isabelasuarez2508@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Gmail">
                         <i class="fa-solid fa-envelope"></i>
                     </a>
 
@@ -422,8 +490,6 @@
         </section>
 
     </main>
-
-
 
     <footer class="footer">
         <div class="container">
